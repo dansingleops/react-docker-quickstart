@@ -8,4 +8,5 @@ then
 fi
 
 cd ${APP}
+export NODE_PATH=src/
 yarn start
