@@ -2,7 +2,7 @@
 
 APP=$1
 
-if [ ! -d ./${APP}/package.json ]
+if [ ! -f ${APP}/package.json ]
 then
   create-react-app ${APP}
 fi
